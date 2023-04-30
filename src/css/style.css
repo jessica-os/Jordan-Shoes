@@ -1,229 +1,160 @@
-main{
+html{
     font-family: 'Montserrat', sans-serif;
-  
-    
 }
 
-.header .retangulo-1 img{
-    position: relative;
-    width: 1200px;
+body{
+    display: grid;
+    grid-template-areas: "discount discount discount discount"
+                        "title title title title"
+                        "slogan slogan slogan slogan"
+                        "infos infos infos infos "
+                        "models models models models"
+                        "models models models models"
+                        "footer footer footer footer";
+   grid-template-columns:repeat(4, 1fr);  
+    
+}
+.discount{
+    grid-area: discount;
+    background: url(../images/Rectangle\ 20.png);
     height: 60px;
-    
-}
-
-.header .retangulo-1 p{
-    color: #F9F9F9;
-    font-weight: 500;
-    font-size: 16px;
-    position: absolute;
-    top: 20px;
-    left: 500px; 
    
 }
-.header .retangulo-2 img{
-    position: relative;
-    width: 1200px;
+.discount p{
+    color: #F9F9F9;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;  
+    
+}
+.title{
+    grid-area: title;
+    background: url(../images/Rectangle\ 2.png);
     height: 60px;
 }
-.header .retangulo-2 p{
+.title p{
     color: #181818;
-    font-weight: 600;
     font-size: 24px;
-    position: absolute;
-    top: 75px;
-    left: 570px; 
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
 }
-
-
-
-.imagem-fundo{
-    position: relative;
+.slogan{
+    grid-area: slogan;
+    background: url(../images/Rectangle\ 21.png);
+    background: url(../images/Mask\ Group.png);
+    background-color: #181818;
+    background-size: cover;
+    height: 377px;
     
 }
-
-
-.imagem-fundo img{
-    width: 1200px;
-    height: 378px;
-    
-}
-
-.imagem-fundo h1{
-    position: absolute;
+.slogan h2 {
+    color: #F9F9F9;
     font-size: 48px;
-    font-weight: 600;
-    color: #F9F9F9;
-    width: 590px;
-    height: 59px;
-    top: 104px;
-    left: 100px;
-}
-
-.imagem-fundo p{
+    margin-top: 104px;
+    margin-left: 100px;
     position: absolute;
-    font-weight: 500;
-    font-size: 24px;
-    color: #F9F9F9;
-    left: 100px;
-    top: 189px;
+    top: 120px;
 }
+.slogan p{
+    color: #f9f9f9;
+    font-size: 24px;
+    margin-top: 26px;
+    margin-left: 100px;
+    line-height: 35px;
+    position: absolute;
+    top: 280px;
+}
+.infos{
+    grid-area: infos;
 
-.informacoes .destaques{
+}
+.infos .destaques{
     font-size: 32px;
     font-weight: 600;
-    width: 176px;
-    color: #181818;
-    margin-left: 550px;
     margin-top: 70px;
+    text-align: center;
 }
-
-.informacoes .frete{
+.infos .text{
     font-size: 20px;
-    font-weight: 500;
-    width: 700px;
     color: #474747;
-    margin-left: 300px;
     margin-top: 17px;
+    text-align: center;
 
 }
-
-.retangulo1 .fundo, .retangulo2 .fundo, .retangulo3 .fundo, .retangulo4 .fundo, 
-.retangulo5 .fundo, .retangulo6 .fundo, .retangulo7 .fundo, .retangulo8 .fundo  {
-    width: 280px;
-    height: 202px;
-}
-
-.modelos-tenis{
-    height: 550px;
-}
-.modelos-tenis .retangulo1{
-    position: relative;
-    width: 280px;
-    top: 65px;
-    left: 50px;
+.models{
+    grid-area: models;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 302px);
+    gap: 39px 20px;  
    
 }
-.modelos-tenis .tenis1{
-    position: absolute;
-    top:25px;
-    left: 20px;
-    width: 230px;
-    height: 150px;
+.models .tenis1{
+    background: url(../images/Rectangle\ 4\ \(3\).png);
+    margin-top: 65px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
 }
-
-.modelos-tenis .retangulo2{
-    position: relative;
-    width: 280px;
-    top: -140px;
-    left: 345px;
-   
+.models .tenis2{
+    background: url(../images/Rectangle\ 4\ \(3\).png);
+    margin-top: 65px;
+    display: flex;
+    align-items: center;
 }
-.modelos-tenis .tenis2{
-    position: absolute;
-    top:25px;
-    left: 20px;
-    width: 230px;
-    height: 150px;
+.models .tenis3{
+    background: url(../images/Rectangle\ 4\ \(3\).png);
+    margin-top: 65px;
+    display: flex;
+    align-items: center;
 }
-
-.modelos-tenis .retangulo3{
-    position: relative;
-    width: 280px;
-    top: -345px;
-    left: 640px;
-   
+.models .tenis4{
+    background: url(../images/Rectangle\ 4\ \(3\).png);
+    margin-top: 65px;
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
 }
-.modelos-tenis .tenis3{
-    position: absolute;
-    top:25px;
-    left: 20px;
-    width: 230px;
-    height: 150px;
+.models .tenis5{
+    background: url(../images/Rectangle\ 4\ \(3\).png);
+    margin-top: 39px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
 }
-
-.modelos-tenis .retangulo4{
-    position: relative;
-    width: 280px;
-    top: -550px;
-    left: 935px;
-   
+.models .tenis6{
+    background: url(../images/Rectangle\ 4\ \(3\).png);
+    margin-top: 39px;
+    display: flex;
+    align-items: center;
 }
-.modelos-tenis .tenis4{
-    position: absolute;
-    top:25px;
-    left: 20px;
-    width: 230px;
-    height: 150px;
+.models .tenis7{
+    background: url(../images/Rectangle\ 4\ \(3\).png);
+    margin-top: 39px;
+    display: flex;
+    align-items: center;
 }
-.modelos-tenis .retangulo5{
-    position: relative;
-    width: 280px;
-    top: -530px;
-    left: 50px;
-   
+.models .tenis8{
+    background: url(../images/Rectangle\ 4\ \(3\).png);
+    margin-top: 39px;
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
 }
-.modelos-tenis .tenis5{
-    position: absolute;
-    top:25px;
-    left: 20px;
-    width: 230px;
-    height: 150px;
+.footer{
+    grid-area: footer;
+    background: url(../images/Rectangle\ 8.png);
+    height: 60px;
+    margin-top: 100px;
 }
-.modelos-tenis .retangulo6{
-    position: relative;
-    width: 280px;
-    top: -735px;
-    left: 345px;
-   
-}
-.modelos-tenis .tenis6{
-    position: absolute;
-    top:25px;
-    left: 20px;
-    width: 230px;
-    height: 150px;
-}
-
-.modelos-tenis .retangulo7{
-    position: relative;
-    width: 280px;
-    top: -942px;
-    left: 640px;
-   
-}
-.modelos-tenis .tenis7{
-    position: absolute;
-    top:25px;
-    left: 20px;
-    width: 230px;
-    height: 150px;
-}
-
-.modelos-tenis .retangulo8{
-    position: relative;
-    width: 280px;
-    top: -1147px;
-    left: 935px;
-   
-}
-.modelos-tenis .tenis8{
-    position: absolute;
-    top:25px;
-    left: 20px;
-    width: 230px;
-    height: 150px;
-}
-
-.footer img{ 
-    width: 1220px;
-    
-}
-
-.footer .texto{
-    
-    position: absolute;
-    color:#F9F9F9;
-    bottom: -1000px;
-    left: 500px;
+.footer p{
+    color: #F9F9F9;
     font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+    
 }
