@@ -1,160 +1,149 @@
-html{
-    font-family: 'Montserrat', sans-serif;
+html {
+  font-family: "Montserrat", sans-serif;
 }
 
-body{
-    display: grid;
-    grid-template-areas: "discount discount discount discount"
-                        "title title title title"
-                        "slogan slogan slogan slogan"
-                        "infos infos infos infos "
-                        "models models models models"
-                        "models models models models"
-                        "footer footer footer footer";
-   grid-template-columns:repeat(4, 1fr);  
-    
+body {
+  display: grid;
+  grid-template-areas:
+    "discount discount discount discount"
+    "title title title title"
+    "slogan slogan slogan slogan"
+    "infos infos infos infos "
+    "models models models models"
+    "models models models models"
+    "footer footer footer footer";
+  grid-template-columns: repeat(4, 1fr);
 }
-.discount{
-    grid-area: discount;
-    background: url(../images/Rectangle\ 20.png);
-    height: 60px;
-   
+.discount {
+  grid-area: discount;
+  background: url(../images/Rectangle\ 20.png);
+  height: 60px;
 }
-.discount p{
-    color: #F9F9F9;
-    font-size: 16px;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;  
-    
+.discount p {
+  color: #f9f9f9;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
-.title{
-    grid-area: title;
-    background: url(../images/Rectangle\ 2.png);
-    height: 60px;
+.title {
+  grid-area: title;
+  background: url(../images/Rectangle\ 2.png);
+  height: 60px;
 }
-.title p{
-    color: #181818;
-    font-size: 24px;
-    font-weight: 600;
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
+.title p {
+  color: #181818;
+  font-size: 24px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
 }
-.slogan{
-    grid-area: slogan;
-    background: url(../images/Rectangle\ 21.png);
-    background: url(../images/Mask\ Group.png);
-    background-color: #181818;
-    background-size: cover;
-    height: 377px;
-    
+.slogan {
+  grid-area: slogan;
+  background: url(../images/Rectangle\ 21.png);
+  background: url(../images/Mask\ Group.png);
+  background-color: #181818;
+  filter: brightness(50%);
+  background-size: cover;
+  height: 377px;
 }
-.slogan h2 {
-    color: #F9F9F9;
-    font-size: 48px;
-    margin-top: 104px;
-    margin-left: 100px;
-    position: absolute;
-    top: 120px;
+.about h2 {
+  color: #f9f9f9;
+  font-size: 48px;
+  margin-left: 100px;
+  position: absolute;
+  top: 230px;
 }
-.slogan p{
-    color: #f9f9f9;
-    font-size: 24px;
-    margin-top: 26px;
-    margin-left: 100px;
-    line-height: 35px;
-    position: absolute;
-    top: 280px;
+.about p {
+  color: #f9f9f9;
+  font-size: 24px;
+  margin-top: 26px;
+  margin-left: 100px;
+  line-height: 35px;
+  position: absolute;
+  top: 285px;
 }
-.infos{
-    grid-area: infos;
-
+.infos {
+  grid-area: infos;
 }
-.infos .destaques{
-    font-size: 32px;
-    font-weight: 600;
-    margin-top: 70px;
-    text-align: center;
+.infos .destaques {
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 70px;
+  text-align: center;
 }
-.infos .text{
-    font-size: 20px;
-    color: #474747;
-    margin-top: 17px;
-    text-align: center;
-
+.infos .text {
+  font-size: 20px;
+  color: #474747;
+  margin-top: 17px;
+  text-align: center;
 }
-.models{
-    grid-area: models;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 302px);
-    gap: 39px 20px;  
-   
+.models {
+  grid-area: models;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 302px);
+  gap: 39px 20px;
 }
-.models .tenis1{
-    background: url(../images/Rectangle\ 4\ \(3\).png);
-    margin-top: 65px;
-    display: flex;
-    align-items: center;
-    margin-left: 100px;
+.models .shoe1 {
+ background: url(../images/Rectangle\ 4\ \(3\).png);
+  margin-top: 65px;
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
 }
-.models .tenis2{
-    background: url(../images/Rectangle\ 4\ \(3\).png);
-    margin-top: 65px;
-    display: flex;
-    align-items: center;
+.models .shoe2 {
+  background: url(../images/Rectangle\ 4\ \(3\).png);
+  margin-top: 65px;
+  display: flex;
+  align-items: center;
 }
-.models .tenis3{
-    background: url(../images/Rectangle\ 4\ \(3\).png);
-    margin-top: 65px;
-    display: flex;
-    align-items: center;
+.models .shoe3 {
+  background: url(../images/Rectangle\ 4\ \(3\).png);
+  margin-top: 65px;
+  display: flex;
+  align-items: center;
 }
-.models .tenis4{
-    background: url(../images/Rectangle\ 4\ \(3\).png);
-    margin-top: 65px;
-    display: flex;
-    align-items: center;
-    margin-right: 100px;
+.models .shoe4 {
+  background: url(../images/Rectangle\ 4\ \(3\).png);
+  margin-top: 65px;
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
 }
-.models .tenis5{
-    background: url(../images/Rectangle\ 4\ \(3\).png);
-    margin-top: 39px;
-    display: flex;
-    align-items: center;
-    margin-left: 100px;
+.models .shoe5 {
+  background: url(../images/Rectangle\ 4\ \(3\).png);
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
 }
-.models .tenis6{
-    background: url(../images/Rectangle\ 4\ \(3\).png);
-    margin-top: 39px;
-    display: flex;
-    align-items: center;
+.models .shoe6 {
+  background: url(../images/Rectangle\ 4\ \(3\).png);
+  display: flex;
+  align-items: center;
 }
-.models .tenis7{
-    background: url(../images/Rectangle\ 4\ \(3\).png);
-    margin-top: 39px;
-    display: flex;
-    align-items: center;
+.models .shoe7 {
+  background: url(../images/Rectangle\ 4\ \(3\).png);
+  display: flex;
+  align-items: center;
 }
-.models .tenis8{
-    background: url(../images/Rectangle\ 4\ \(3\).png);
-    margin-top: 39px;
-    display: flex;
-    align-items: center;
-    margin-right: 100px;
+.models .shoe8 {
+  background: url(../images/Rectangle\ 4\ \(3\).png);
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
 }
-.footer{
-    grid-area: footer;
-    background: url(../images/Rectangle\ 8.png);
-    height: 60px;
-    margin-top: 100px;
+.footer {
+  grid-area: footer;
+  background: url(../images/Rectangle\ 8.png);
+  height: 60px;
+  margin-top: 100px;
 }
-.footer p{
-    color: #F9F9F9;
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    margin-top: 18px;
-    
+.footer p {
+  color: #f9f9f9;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
 }
