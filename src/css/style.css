@@ -85,54 +85,64 @@ body {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 302px);
   gap: 39px 20px;
+  padding: 0 100px;
+ 
 }
 .models .shoe1 {
  background: url(../images/Rectangle\ 4\ \(3\).png);
   margin-top: 65px;
-  display: flex;
+  justify-content: center;
   align-items: center;
-  margin-left: 100px;
+  display: flex;
+  
 }
 .models .shoe2 {
   background: url(../images/Rectangle\ 4\ \(3\).png);
   margin-top: 65px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  
 }
 .models .shoe3 {
   background: url(../images/Rectangle\ 4\ \(3\).png);
   margin-top: 65px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .models .shoe4 {
   background: url(../images/Rectangle\ 4\ \(3\).png);
   margin-top: 65px;
   display: flex;
   align-items: center;
-  margin-right: 100px;
+  justify-content: center;
 }
 .models .shoe5 {
   background: url(../images/Rectangle\ 4\ \(3\).png);
   display: flex;
   align-items: center;
-  margin-left: 100px;
+  justify-content: center;
+  
 }
 .models .shoe6 {
   background: url(../images/Rectangle\ 4\ \(3\).png);
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .models .shoe7 {
   background: url(../images/Rectangle\ 4\ \(3\).png);
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .models .shoe8 {
   background: url(../images/Rectangle\ 4\ \(3\).png);
   display: flex;
   align-items: center;
-  margin-right: 100px;
+  justify-content: center;
+  
 }
 .footer {
   grid-area: footer;
@@ -147,3 +157,4 @@ body {
   justify-content: center;
   margin-top: 18px;
 }
+
