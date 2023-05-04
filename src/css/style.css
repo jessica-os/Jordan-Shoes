@@ -87,65 +87,25 @@ body {
   grid-template-rows: repeat(2, 302px);
   gap: 39px 20px;
   padding: 65px 100px 100px;
+  
  
 }
-.models .shoe1 {
+.models .shoe1, .models .shoe2, .models .shoe3, .models .shoe4, .models .shoe5,
+.models .shoe6, .models .shoe7, .models .shoe8 {
   background: url(../images/Rectangle\ 4\ \(3\).png);
   justify-content: center;
   align-items: center;
   display: flex;
-  
+  cursor: pointer;
+  transition: 1.5s ease-in-out; 
 }
-.models .shoe2 {
-  background: url(../images/Rectangle\ 4\ \(3\).png);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
-}
-.models .shoe3 {
-  background: url(../images/Rectangle\ 4\ \(3\).png);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.models .shoe4 {
-  background: url(../images/Rectangle\ 4\ \(3\).png);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.models .shoe5 {
-  background: url(../images/Rectangle\ 4\ \(3\).png);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
-}
-.models .shoe6 {
-  background: url(../images/Rectangle\ 4\ \(3\).png);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.models .shoe7 {
-  background: url(../images/Rectangle\ 4\ \(3\).png);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.models .shoe8 {
-  background: url(../images/Rectangle\ 4\ \(3\).png);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
+.models img:hover{
+  transform: scale(1.2) ;
 }
 .footer {
   grid-area: footer;
   background: url(../images/Rectangle\ 8.png);
   height: 60px;
-/*   margin-top: 100px; */
 }
 .footer p {
   color: #f9f9f9;
