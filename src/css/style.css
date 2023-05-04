@@ -47,12 +47,13 @@ body {
   filter: brightness(50%);
   background-size: cover;
   height: 377px;
+  
 }
 .about h2 {
   color: #f9f9f9;
   font-size: 48px;
   margin-left: 100px;
-  position: absolute;
+  position: absolute; 
   top: 230px;
 }
 .about p {
