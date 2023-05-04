@@ -1,41 +1,60 @@
-/* @media(max-width:1024px){
-    .models {
-        grid-template-columns: repeat(2, 400px);
-        grid-template-rows: repeat(4, 378px);
-        margin: auto;
-        
-     
-      }
-      .models .shoe1, .models .shoe5 {
-        margin-left: 0;
-      }
-      .models .shoe4, .models .shoe8{
-        margin-right: 0;
-      }
-      .models img{
-        margin: auto;
-
-    }
-    } 
+    @media(max-width:1024px){
+      .models {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 302px);
+        padding: 65px 100px 65px;
+    
+    } }
 
      @media(max-width:768px){
-        body{
-            background-color: purple;
-            width: 668px;
-        }
-        .about h2 {
-            color: #f9f9f9;
-            font-size: 43px;
-            top: 220px;
-          }
-          .about p {
-            color: #f9f9f9;
-            font-size: 20px;
-            margin-top: 70px;
-            top: 250px;
-          }
-          .models {
-            grid-template-columns:repeat(1, 1fr);
-            grid-template-rows: repeat(2, 302px);
-            gap: 39px 20px;
-    }}  */
+      .slogan {
+        background: url(../images/Air-Jordan-1-Retro-High-OG-Wmns-TWIST-Feminino\ 1.png) no-repeat center;
+        background-size: cover;
+       
+    } 
+    .about h2 {
+      font-size: 26px;
+      margin-left: 40px;
+      top: 215px;
+      font-weight: 700;
+    }
+    .about p {
+      font-size: 16px;
+      font-weight: 600;
+      margin: 10px 0 0 40px;
+      
+    }
+    .models {
+      padding: 0 20px;
+      padding: 65px 20px 62px;
+      
+  }
+}
+
+@media(max-width:475px){
+  
+.about h2 {
+  margin-left: 20px;
+  margin-top: 40px;
+}
+.about p {
+  font-weight: 600;
+  margin: 20px 0 0 20px;
+  line-height: 28px;
+}
+
+.infos .destaques {
+    font-size: 28px;
+    margin-top: 50px;
+}
+.infos .text {
+  font-size: 16px;
+
+}
+.models {
+  grid-template-columns:repeat(1, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  padding: 65px 20px 65px;
+  gap: 30px 20px;
+  }
+}
