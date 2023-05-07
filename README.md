@@ -16,4 +16,4 @@ Tela Desktop:
 Telas Tablet e Mobile:
 <img src="./src/Readme-gifs/Peek 07-05-2023 14-31.gif" alt="projeto tela tablet e mobile"/>
 
-  <a href=" https://jessica-os.github.io/JordanShoes/" target="_blank"> https://jessica-os.github.io/JordanShoes/</a>
+  <a href=" https://jessica-os.github.io/JordanShoes/" target="_blank">https://jessica-os.github.io/JordanShoes/</a>
