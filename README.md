@@ -9,3 +9,9 @@ Habilidades utilizadas:
 - Responsividade através de MediaQueries
 
 ## Veja como ficou:
+
+Tela Desktop:
+<img src="./src/Readme-gifs/Peek 07-05-2023 14-27.gif" alt="Projeto tela desktop">
+
+Telas Tablet e Mobile:
+<img src="./src/Readme-gifs/Peek 07-05-2023 14-31.gif" alt="projeto tela tablet e mobile">
