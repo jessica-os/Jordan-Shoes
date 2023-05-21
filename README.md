@@ -26,4 +26,4 @@ Pretendo atualizá-lo com demais linguagens assim que eu for avançando nos estu
 
 <img src="./src/Readme-gifs/Peek 07-05-2023 14-31.gif" alt="projeto tela tablet e mobile"/>
 
-Para ver o projeto pronto [ clique aqui! ]( https://jessica-os.github.io/JordanShoes/)
+Para ver o projeto pronto [ clique aqui! ](https://jessica-os.github.io/Jordan-Shoes/)
